@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan Gros-Dubois - Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1>Jonathan Gros-Dubois</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#summary">Summary</a></li>
+                <li><a href="my-story.html">My Story</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="hero-content">
+                <img src="assets/jon-profile-round.png" alt="Jonathan Gros-Dubois" class="hero-profile-image">
+                <h1 class="hero-title">Hi, I'm Jon</h1>
+                <p class="hero-subtitle">Discovering simple solutions to complex problems</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="summary" class="section">
+            <div class="container">
+                <h2 class="section-title">Summary</h2>
+                <p class="section-text">
+                    I'm a passionate software engineer with over a decade of experience working for both large companies and startups across a wide range of industries in multiple countries. I specialize in building scalable platforms, blockchain solutions, and AI-powered applications. From people-discovery platforms to serverless development tools and quantum-resistant blockchain technology, I enjoy tackling complex challenges and creating innovative solutions that solve real-world problems.
+                </p>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3 class="project-title">Insnare</h3>
+                        <p class="project-description">A people-discovery platform which supports custom data management and web crawling to collect additional data by traversing social networks with AI.</p>
+                        <div class="project-links">
+                            <a href="https://www.insnare.net/" class="project-link" target="_blank">Go to Website</a>
+                            <a href="#" class="project-link">Source Code</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title">Saasufy</h3>
+                        <p class="project-description">A scalable, production-ready, serverless application development platform with plug-and-play components that connect to flexible data stores, supporting advanced features like access control, authentication, rate limiting, filtered views, and more.</p>
+                        <div class="project-links">
+                            <a href="https://saasufy.com/" class="project-link" target="_blank">Go to Website</a>
+                            <a href="#" class="project-link">Source Code</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title">Capitalisk</h3>
+                        <p class="project-description">An energy-efficient, quantum-resistant DPoS blockchain featuring Capitalisk DEX for launching decentralized cross-chain trading markets.</p>
+                        <div class="project-links">
+                            <a href="https://capitalisk.com/" class="project-link" target="_blank">Go to Website</a>
+                            <a href="#" class="project-link">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-text">
+                    I'm always interested in new opportunities and collaborations.
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:flashthink@gmail.com" class="contact-link">Email</a>
+                    <a href="https://www.linkedin.com/in/jonathan-gros-dubois/" class="contact-link" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/jondubois" class="contact-link" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Jonathan Gros-Dubois. All rights reserved.</p>
+            <a href="https://yellowbrickring.com/webring?from=example.com&to=prev">← Prev</a> |
+            <strong>Part of <a href="https://yellowbrickring.com">Yellow Brick Ring</a></strong> |
+            <a href="https://yellowbrickring.com/webring?from=example.com&to=next">Next →</a> |
+            <a href="https://yellowbrickring.com/webring?from=example.com&to=random">🎲 Random</a>
+        </div>
+    </footer>
+    
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
